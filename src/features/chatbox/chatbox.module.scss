@@ -14,6 +14,7 @@
 }
 
 .message_box {
+  max-width: 70%;
   background-color: tokens.$bg-primary;
   padding: 12px 20px;
   border-radius: tokens.$br-lg;
