@@ -41,6 +41,8 @@
 .message_input_container {
   margin-top: 38px;
   position: relative;
+
+  @include tokens.box-shadow-default;
 }
 
 .message_input {
