@@ -1,0 +1,23 @@
+$bg-surface: #fff;
+$bg-primary: rgba(0, 122, 254, 1);
+$bg-secondary: rgba(34, 118, 245, 0.2);
+
+$text-col-primary: rgba(255, 255, 255, 1);
+$text-col-on-secondary: rgba(0, 0, 0, 1);
+$text-col-placeholder: rgba(206, 208, 214, 1);
+
+$br-md: 16px;
+$br-lg: 28px;
+$br-full: 100%;
+
+$font-family-fallback: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+@mixin text-primary {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: SF Pro Text, Inter, $font-family-fallback;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 27.9px */
+}
